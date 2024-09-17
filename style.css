@@ -1,0 +1,9 @@
+
+  #principal>div{
+    border: 1px solid lightgray;
+    border-radius: 10px;
+  }
+  
+  #canvasContainer{
+     height: 600px;
+  }
