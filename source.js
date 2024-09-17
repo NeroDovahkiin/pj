@@ -91,11 +91,11 @@ function addMarco(marco) {
         simpleText.moveToTop();
     };
     if (marco == 1) {
-        imageObj.src = '/imgs/marco1.png';
+        imageObj.src = 'imgs/marco1.png';
     } else if (marco == 2) {
-        imageObj.src = '/imgs/marco2.png';
+        imageObj.src = 'imgs/marco2.png';
     } else if (marco == 3) {
-        imageObj.src = '/imgs/marco3.png';
+        imageObj.src = 'imgs/marco3.png';
     } else {
         if (stage.find('#marco1').length != 0) {
             stage.find('#marco1')[0].destroy();
