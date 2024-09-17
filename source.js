@@ -116,13 +116,13 @@ function addFondo(value) {
     // stage.container().style.backgroundColor = 'blue' ;
     switch (value) {
         case 1:
-            stage.container().style.backgroundImage = "url('imgs/paredMadera.jpg')";
+            stage.container().style.backgroundImage = "url('/pj/imgs/paredMadera.jpg')";
             break;
         case 2:
-            stage.container().style.backgroundImage = "url('imgs/paredPiedra.jpg')";
+            stage.container().style.backgroundImage = "url('/pj/imgs/paredPiedra.jpg')";
             break;
         case 3:
-            stage.container().style.backgroundImage = "url('imgs/paredLadrillo.jpg')";
+            stage.container().style.backgroundImage = "url('/pj/imgs/paredLadrillo.jpg')";
             break;
         default:
             stage.container().style.backgroundImage = "";
